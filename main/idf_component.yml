@@ -1,0 +1,10 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: '>=5.0.0'
+  espressif/esp_rainmaker:
+    version: '>=1.0'
+    override_path: ../../../components/esp_rainmaker/
+  zorxx/dht: ^1.0.1
+  espressif/esp_websocket_client: ^1.4.0
